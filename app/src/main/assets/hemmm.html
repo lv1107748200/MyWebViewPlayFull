@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+    <link href="http://vjs.zencdn.net/6.8.0/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
     <body>
         <video width="305" height="305" controls="controls" preload="none" poster="https://xxbmicon.oss-cn-beijing.aliyuncs.com/1519977565763070845.jpg" >
               <source src="https://xxbmicon.oss-cn-beijing.aliyuncs.com/upload/video/20180302/1519977565763070845.mp4" type="video/mp4">
         </video>
+
+
+        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+               poster="" data-setup="{}">
+            <source src="http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f30.mp4" type='video/mp4'>
+            <p class="vjs-no-js">
+                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+
+        <script src="http://vjs.zencdn.net/6.8.0/video.js"></script>
+
     </body>
 </html>
